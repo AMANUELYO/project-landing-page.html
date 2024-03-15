@@ -1,0 +1,99 @@
+body{ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    justify-items: baseline;
+    align-items: flex-start;   
+}
+
+ul{ 
+    display: flex;
+     gap: 1em;
+     margin-bottom: 2em;       
+}
+
+li{
+    list-style-type: none; 
+}
+a{
+       font-size:0.80rem;
+    color: white;
+    text-decoration: none;
+}
+
+.hl{ 
+   
+  font-weight: bold;
+  font: size 2rem;
+  padding-top: 1em;
+}
+
+.header2{
+    padding: 0 5em; 
+}
+
+.h21{
+    display: block;
+}
+
+.h22{
+    display: block;
+}
+
+.para,.tit{
+    margin: 0;
+}
+
+.signup{
+    padding:0.25em 1em;
+    background-color:#3882f6;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border-color: #3882f6;
+   margin-bottom:16px ;
+   flex:0;
+   width:100px;
+}
+
+button:hover{
+    
+    color:#3882f6;
+    background-color: white;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 2em 0;
+}
+
+img{
+    margin: 0em;
+
+}
+
+.container{
+    color: white;
+    background-color: #1F2937; 
+    padding-bottom: 0.05em;  
+}
+
+.para{
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 48px;
+}
