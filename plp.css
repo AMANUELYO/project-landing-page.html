@@ -27,7 +27,7 @@ a{
 .hl{ 
    
   font-weight: bold;
-  font-size 1.125rem;
+  font-size: 1.125rem;
   padding-top: 1em;
 }
 
@@ -113,32 +113,28 @@ h3{
     height: 100px;
     border-radius: 10px;
     border-color:#3882f6;
-    
 }
+
 .box-container{
     display: flex;
    
     height:105px;
     gap: 1.5em;
     justify-content: center;
-    align-items: ;
+   
 }
 .box1-1,.box1-2,.box1-3,.box1-4{
-   
     width: 120px;
     height: 100px;
     border-radius: 10px;
-   
     display: flex;
     text-align: center;
-    align-items: flex-start;
-    
+    align-items: flex-start; 
     margin-bottom: auto;
-
 }
+
 .box-container2{
-    display: flex;
-   
+    display: flex; 
     height:110px;
     gap: 0.5em;
     justify-content: center;
@@ -147,6 +143,49 @@ h3{
 p{
     font-size: 0.84rem;
     color:rgb(141, 141, 141);
+    margin-top: 0;
+}
+
+/*quote part*/
+
+.container3{ 
+    height:300px ;
+    background-color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:40px 0;
+    padding: 40px 0 0 0;
+}
+
+.quote-box{
+    height: 150px;
+}
+
+.qp1,.qp2{
+    display: block;
+}
+
+em{
+     color:#1f2937;
+    font-size:1.70rem;
+    font-style:italic;
+}
+
+.quoter{  
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quoter-name{
+    height: 60px;
+    margin: 0px;
+    margin-right: 400px;
+}
+
+h4{
     margin-top: 0;
 }
     
