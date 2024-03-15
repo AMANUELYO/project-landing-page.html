@@ -20,14 +20,14 @@ li{
 }
 a{
        font-size:0.80rem;
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
 .hl{ 
    
   font-weight: bold;
-  font: size 2rem;
+  font-size 1.125rem;
   padding-top: 1em;
 }
 
