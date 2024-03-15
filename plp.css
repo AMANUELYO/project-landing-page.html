@@ -157,10 +157,13 @@ p{
     flex-direction: column;
     margin:40px 0;
     padding: 40px 0 0 0;
+    flex-wrap: wrap;
 }
 
 .quote-box{
     height: 150px;
+    border: 2px solid #E5E7EB;
+    padding: 10px;
 }
 
 .qp1,.qp2{
@@ -177,20 +180,73 @@ em{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .quoter-name{
     height: 60px;
     margin: 0px;
     margin-right: 400px;
+    margin-left: auto;
+    padding: 10px;
+    border: 2px solid #E5E7EB;
 }
 
 h4{
-    margin-top: 0;
+    margin-top: 17px;
+}
+
+/* sign up section*/
+
+.container4{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    border: 2px solid #3882f6;
+    display: flex;
+    justify-content: space-around;
+    width: 850px;
+    margin: 10px 10px 40px 10px;
+    height: 90px;
+    background-color:#3882f6;
+    border-radius: 7px;
 }
     
+.text-part{ 
+    height:50px;
+   width: 460px;
+   margin: 10px;
+   padding: 5px;
+}
     
+h5,p{
+    margin:2px 0;
+}
 
+.signup1{
+    padding: 0;
+    background-color:#3882f6;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border-color: white;
+   padding: 1px 5px;
+   flex-shrink: 0;
+   width:96px;
+   height: 29px;
+   padding: 5px 8px;
+   margin-top: 20px;
+}
 
+h5{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
    
-
+.second-text{
+    font-size: 14px;
+    color: #E5E7EB;
+}
